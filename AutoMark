@@ -14,7 +14,7 @@ function firebutton(button)
     end
 end
 
-while wait() do
+while _G.AutoMark == true do
    local Cards
    
    if SubContainer:FindFirstChild("Blocks") then
@@ -43,4 +43,5 @@ while wait() do
            end
        end
    end
+   wait()
 end
